@@ -22,3 +22,14 @@ Once the project is forked in your GitHub account the you can clone it to your c
 So for adding remote connections we use git remote add <REMOTENAME> <URL>  and for viewing then we use 
 git remote -v 
 
+Let's talk about branches...
+
+Git repositories use branches to isolate work when needed. It's common practice when working on a project or 
+with others on a project to create a branch to keep your changes in until they are ready. 
+This way you can do your work while the main, commonly named 'master', branch stays stable. 
+When your branch is ready, you merge it back into 'master'.
+
+When you create a branch in your project, you're creating an environment where you can try out new ideas. 
+Changes you make on a branch don't affect the master branch, so you're free to experiment and commit changes, 
+safe in the knowledge that your branch won't be merged until it's ready to be reviewed by 
+someone you're collaborating with.
